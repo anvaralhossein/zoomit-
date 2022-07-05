@@ -1,0 +1,263 @@
+body {
+    font-family: 'Iranian Sans', sans-serif;
+    padding-top: 0;
+}
+.hidden-bar {
+    background-color: #242424;
+    box-shadow: 0 3px 20px 0 rgb( 0 0 0 / 40%);
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 12px;
+}
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    padding-inline-end: 3%;
+
+}
+.navbar-nav a {
+    text-decoration: none;
+    color: #989696;
+}
+.navbar-nav a:hover {
+    color: white;
+}
+
+.navbar-nav2 {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+.navbar-nav2 a {
+    text-decoration: none;
+    color: #989696;
+}
+.navbar-nav2 a:hover {
+    color: white;
+}
+
+
+
+.main-bar {
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 100%;
+    height: 73px;
+
+
+
+}
+
+#main-logo {
+    width: 148px;
+    height: 30px;
+    padding-inline-end: 3%;
+}
+#productin-btn {
+    background-color: #807f7f;
+    border-radius: 18px;
+    padding: 3px 12px;
+    margin-right: -7%;
+
+}
+#productin-btn a {
+    color: white;
+    text-decoration: none;
+
+
+}
+.main-navbar {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+
+}
+
+.main-navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#icons {
+    padding-inline-start: 3%;
+}
+#icons img {
+    width: 25px;
+    height: 25px;
+}
+
+#icons a {
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+#ad-gif {
+    padding-top: 2px;
+}
+.ads-gifs  img{
+    border: 1px solid #333;
+
+
+}
+.ads-gifs {
+    padding-top: 2% ;
+}
+
+
+
+.ads-posts {
+    display: flex;
+    gap: 5px;
+}
+
+#titel1 {
+    width: 320px;
+    height: 170px;
+    background-image: url("images/mi-band-7-pro-(1).jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+#titel1 p {
+    font-size: 14px;
+ font-weight: bold;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(40%,rgba(0,0,0,.1)),color-stop(75%,rgba(0,0,0,.5)),color-stop(100%,rgba(0,0,0,.75)));
+}
+
+
+
+#titel1 a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px #000;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    top: 7.5rem;
+    right: 2px;
+}
+
+#titel2 {
+    width: 320px;
+    height: 322px;
+    background-image: url("images/mi-12s-ultra.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#titel2 p {
+    font-size: 14px;
+    font-weight: bold;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(40%,rgba(0,0,0,.1)),color-stop(75%,rgba(0,0,0,.5)),color-stop(100%,rgba(0,0,0,.75)));
+}
+
+
+
+#titel2 a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px #000;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    top: 17rem;
+    right: 2px;
+}
+
+#titel3 {
+    width: 644px;
+    height: 322px;
+    background-image: url("images/xiaomi-12s-ultra.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#titel3 p {
+    font-size: 17px;
+    font-weight: bold;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(40%,rgba(0,0,0,.1)),color-stop(75%,rgba(0,0,0,.5)),color-stop(100%,rgba(0,0,0,.75)));
+}
+
+
+
+#titel3 a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px #000;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    top: 17.5rem;
+    right: 2px;
+}
+
+.flex {
+    display: flex;
+    padding-top: 5px;
+}
+
+#titel4 {
+    width: 321px;
+    height: 169px;
+    background-image: url("images/samsung-galaxy-s21-fe-lifestyle.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#titel4 p {
+    font-size: 17px;
+    font-weight: bold;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(40%,rgba(0,0,0,.1)),color-stop(75%,rgba(0,0,0,.5)),color-stop(100%,rgba(0,0,0,.75)));
+}
+
+
+
+#titel4 a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px #000;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    top: 8.2rem;
+    right: 2px;
+}
+#titel5 {
+    width: 321px;
+    height: 169px;
+    background-image: url("images/pixel-6-pro-vs-galaxy-s22-ultra.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#titel5 p {
+    font-size: 17px;
+    font-weight: bold;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(40%,rgba(0,0,0,.1)),color-stop(75%,rgba(0,0,0,.5)),color-stop(100%,rgba(0,0,0,.75)));
+}
+
+
+
+#titel5 a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px #000;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    top: 8.2rem;
+    right: 2px;
+}
